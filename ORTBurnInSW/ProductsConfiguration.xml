@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <BurnIn>
+    <TestName>BurnIn</TestName>
+    <Assemblies>
+      <Assembly>
+        <ProductID>PFE1100-12-054ND</ProductID>
+        <UnitsPerShelf>2</UnitsPerShelf>
+        <InputVoltage>50 VDC</InputVoltage>
+        <Outputs>
+          <NumberOfOutputs>2</NumberOfOutputs>
+          <Output1>
+            <LowLimit>11</LowLimit>
+            <HighLimit>13</HighLimit>
+            <Load>65000</Load> ;in miliamps
+          </Output1>
+          <Output2>
+            <LowLimit>2.5</LowLimit>
+            <HighLimit>4.0</HighLimit>
+            <Load>0</Load> ;in miliamps
+          </Output2>
+        </Outputs>
+        <BIProfile>Profile1</BIProfile>
+      </Assembly>
+      <Assembly>
+        <ProductID>PFE1100-12-054NDS331</ProductID>
+        <UnitsPerShelf>2</UnitsPerShelf>
+        <InputVoltage>50 VDC</InputVoltage>
+        <Outputs>
+          <NumberOfOutputs>2</NumberOfOutputs>
+          <Output1>
+            <LowLimit>11</LowLimit>
+            <HighLimit>13</HighLimit>
+            <Load>65000</Load> ;in miliamps
+          </Output1>
+          <Output2>
+            <LowLimit>2.5</LowLimit>
+            <HighLimit>4.0</HighLimit>
+            <Load>0</Load> ;in miliamps
+          </Output2>
+        </Outputs>
+        <BIProfile>Profile1</BIProfile>
+        <BarcodeSettings>
+          <JobID>
+            <StartIndex>2</StartIndex>
+            <Length>8</Length>
+          </JobID>
+        </BarcodeSettings>
+      </Assembly>
+      <Assembly>
+        <ProductID>PFE1100-12-054NDS387</ProductID>
+        <UnitsPerShelf>2</UnitsPerShelf>
+        <InputVoltage>50 VDC</InputVoltage>
+        <Outputs>
+          <NumberOfOutputs>2</NumberOfOutputs>
+          <Output1>
+            <LowLimit>11</LowLimit>
+            <HighLimit>13</HighLimit>
+            <Load>65000</Load> ;in miliamps
+          </Output1>
+          <Output2>
+            <LowLimit>2.5</LowLimit>
+            <HighLimit>4.0</HighLimit>
+            <Load>0</Load> ;in miliamps
+          </Output2>
+        </Outputs>
+        <BIProfile>Profile1</BIProfile>
+      </Assembly>
+      <Assembly>
+        <ProductID>SPDCSCP-27G</ProductID>
+        <UnitsPerShelf>2</UnitsPerShelf>
+        <InputVoltage>50 VDC</InputVoltage>
+        <Outputs>
+          <NumberOfOutputs>2</NumberOfOutputs>
+          <Output1>
+            <LowLimit>11</LowLimit>
+            <HighLimit>13</HighLimit>
+            <Load>62000</Load> ;in miliamps
+          </Output1>
+          <Output2>
+            <LowLimit>2.5</LowLimit>
+            <HighLimit>4.0</HighLimit>
+            <Load>0</Load> ;in miliamps
+          </Output2>
+        </Outputs>
+        <BIProfile>Profile2</BIProfile>
+      </Assembly>
+    </Assemblies>
+    <BIProfiles>
+      <Profile1>
+        <BITime>8</BITime> ;in hours
+        <Profile>
+          <Phase>
+            <Duration>2700</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>300</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+        </Profile>
+      </Profile1>
+      <Profile2>
+        <BITime>24</BITime> ;in hours
+        <Profile>
+          <Phase>
+            <Duration>2520</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>60</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+        </Profile>
+      </Profile2>
+      <Profile3>
+        <BITime>24</BITime> ;in hours
+      </Profile3>
+      <Profile4>
+        <BITime>48</BITime> ;in hours
+      </Profile4>
+      <Profile5>
+        <BITime>72</BITime> ;in hours
+      </Profile5>
+    </BIProfiles>
+  </BurnIn>
+  <ORT>
+    <TestName>ORT</TestName>
+    <Assemblies>
+      <Assembly>
+        <ProductID>SPDBRCD-04G</ProductID>
+        <UnitsPerShelf>2</UnitsPerShelf>
+        <InputVoltage>50 VDC</InputVoltage>
+        <Outputs>
+          <NumberOfOutputs>2</NumberOfOutputs>
+          <Output1>
+            <LowLimit>11</LowLimit>
+            <HighLimit>13</HighLimit>
+            <Load>65000</Load> ;in miliamps
+          </Output1>
+          <Output2>
+            <LowLimit>2.5</LowLimit>
+            <HighLimit>4.0</HighLimit>
+            <Load>0</Load> ;in miliamps
+          </Output2>
+        </Outputs>
+        <BIProfile>Profile1</BIProfile>
+      </Assembly>
+    </Assemblies>
+    <BIProfiles>
+      <Profile1>
+        <BITime>672</BITime> ;in hours
+        <Profile>
+          <Phase>
+            <Duration>2700</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>300</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>1</InputVoltage>
+            <OutputLoad>1</OutputLoad>
+          </Phase>
+          <Phase>
+            <Duration>30</Duration> ;in seconds
+            <InputVoltage>0</InputVoltage>
+            <OutputLoad>0</OutputLoad>
+          </Phase>
+        </Profile>
+      </Profile1>
+    </BIProfiles>
+  </ORT>
+</Configuration>

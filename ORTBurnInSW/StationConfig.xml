@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <DatalogerCOMPort>COM6</DatalogerCOMPort>
+  <SigmaSure>
+    <StationName>ORT_01</StationName>
+    <GUID>F1F150E6-D079-45A0-B025-9915F0333F81</GUID>    
+    <Mode>P</Mode>    
+  </SigmaSure>
+  <Shelves>
+    <S01>
+      <active>0</active>
+    </S01>
+    <S02>
+      <active>1</active>
+    </S02>
+    <S03>
+      <active>1</active>
+    </S03>
+    <S04>
+      <active>1</active>
+    </S04>
+    <S05>
+      <active>1</active>
+    </S05>
+    <S06>
+      <active>1</active>
+    </S06>
+  </Shelves>  
+</Configuration>
